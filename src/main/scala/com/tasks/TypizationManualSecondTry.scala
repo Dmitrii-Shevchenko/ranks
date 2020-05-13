@@ -70,12 +70,7 @@ object Main extends App {
   import PositiveInt.Unsafe._
   val g = PositiveInt("Nasdf123")
   println(g)
-//  println(g.value)
-//
-//  def giveMeInt(value: Int) = println(value)
-//  giveMeInt(g)
-//  println(s"azazaa ${g}")
-//
+
   def valid(x: PositiveInt) = println(x)
   valid(PositiveInt("Hello"))
 }
